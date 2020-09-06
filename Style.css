@@ -32,4 +32,5 @@ h3{
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    text-decoration-color: linear-gradient(to right, rgb(29, 29, 114), rgb(13, 240, 13) );
 }
