@@ -1,13 +1,10 @@
 body{
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: center;*/
     font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-transform: uppercase;
     top: 15%;
     letter-spacing: .5em;
-   background: linear-gradient(to right, red , black); /*standard syntax for Linear Gradient*/
+   background: linear-gradient(to left, #C0D714 , #FF0000); /*standard syntax for Linear Gradient*/
     
 }
 
@@ -27,18 +24,57 @@ h2{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    width: 100%;
+    width: 100%; 
     
 }
 
 h3{
     font: 900 3.5em 'Raleway', sans-serif;
-    color: black;
+    color: green;
+    lighting-color: red;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 0.01em;
     width: 100%;
      
+}
+
+button{
+        
+  background-color: #00CCFF; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
@@ -50,16 +86,31 @@ h3{
     align-items: center;
 }
 
-.lgaClass{
-    width: 500px;
-    height: 10px;
-    padding: 30px;
+.PrintingValue{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 700px;
+    
+}
 
+#valuePrint1{
+    color: #0B85D0;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#check {
+    color: #0B85D0;
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+#myText {
+    font-size: 30px;
+    
 }
 
 
