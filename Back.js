@@ -4,6 +4,7 @@ var input2 = document.getElementById("give2");
 var backWhole = document.getElementById("whole");
 
 
+
 //creating function to adjust the Background picker
 function adjustback(){
     backWhole.style.background = "linear-gradient(to right, "  + input1.value + ", " + input2.value +")";
@@ -26,5 +27,10 @@ function printValue2(){
 	var button = input2.value;
 	document.getElementById("check").innerHTML = "The value is :" + button;
 	
+}
+
+function getLinear(){
+    document.getElementById("myText").innerHTML = "linear-gradient(to right," + input1.value + "," + input2.value;
+
 }
 
